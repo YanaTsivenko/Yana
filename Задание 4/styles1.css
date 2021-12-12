@@ -1,0 +1,620 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  flex-direction: column;
+  height: 2300px;
+  align-content: center;
+}
+
+body,
+header .block2 form button,
+.download button,
+.menu a:hover {
+  background: #f1ebf1;
+}
+
+button {
+  border-radius: 15px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.portfolio-white-background
+{
+    background-color: white;
+    padding: 2em 0em;
+}
+
+.portfolio-div
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    color: black;
+    margin: 0em 4em;
+    padding: 1.5em 0em;
+}
+
+.portfolio-div h2
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.portfolio-div-row-reverse
+{
+    flex-direction: row-reverse;
+}
+
+.portfolio-div p
+{
+    padding: 0;
+    margin: 1em 2em 1em 0em;
+}
+.portfolio-div-row-reverse div
+{
+    margin: 1em 0em 1em 2em;
+}
+
+.portfolio-div img
+{
+    width: auto;
+    height: 16em;
+}
+
+body,
+header,
+header .block1,
+.menu ul,
+.telephone,
+.team,
+.team2,
+.team p,
+.team h3,
+.team2 p,
+.team2 h3,
+.app1,
+.app2,
+.download,
+.download p,
+.download h3,
+.navigation {
+  display: flex;
+}
+
+body,
+header .block1,
+header .block2 {
+  margin: auto;
+}
+header {
+  height: 425px;
+  margin-top: 5px;
+}
+header .block1{
+  margin-top: 10px;
+  justify-content: space-between;
+}
+header .block2 {
+  align-self: left;
+}
+header .block2 form input {
+  background-color: rgba(255, 255, 255, 0.404);
+  border: 2px solid white;
+}
+header,
+.telephone,
+.team,
+.team p,
+.team h3,
+.team2,
+.team2 p,
+.team2 h3,
+.app1,
+.app2,
+.download,
+.download p,
+.download h3,
+.navigation {
+  align-items: center;
+}
+header,
+.team,
+.team2,
+.download {
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+
+header .block2 form input,
+.team .block2 form input,
+.team2 .block2 form input,
+.download .block2 form input,
+header .block2 form button,
+.team .block2 form button,
+.team2 .block2 form button,
+.download .block2 form button,
+header button,
+.download button {
+  margin-left: 15px;
+}
+
+
+header,
+.download {
+  background-image: url(img/header.jpg);
+}
+header .block2 form button,
+.download .block2 form button,
+header button,
+.download button, .team button, .team2 button {
+  font-size: 12pt;
+}
+header .block2 h1,
+.block2 p,
+.colomns h3,
+.colomns p,
+.team h4,
+.team p,
+.team h3,
+.team2 h4,
+.team2 p,
+.team2 h3,
+.download h4,
+.download p,
+.download h3,
+.navigation li,
+footer p {
+  text-align: center;
+}
+header .block2 h1,
+.block2 p,
+.colomns h3,
+.colomns p,
+header .block2 form input::placeholder,
+.app2 .app2Text button,
+.download h4,
+.download p,
+.download h3,
+.download h3,
+.navigation a,
+footer p {
+  color: white;
+}
+header .block2 p,
+header .block2 form button,
+.download button,
+footer p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.app1 .app1Text,
+.app2 .app2Text {
+  width: 200px;
+}
+header .block2 form button,
+.download button,
+.team h4,
+.team p,
+.team h3,
+.team2 h4,
+.team2 p,
+.team2 h3,
+.app1 h3,
+.app1 p,
+.app2 h3,
+.app2 p {
+  color: black;
+}
+header,
+main,
+footer,
+.team p,
+.team h3,
+.team2 p,
+.team2 h3,
+.download p,
+.download h3 {
+  width: 100%;
+}
+.team .imDev_1,
+.team .imDev_2,
+.team .imDev_3,
+.team .imDev_4,
+.team2 .imDev_1,
+.team2 .imDev_2,
+.team2 .imDev_3,
+.team2 .imDev_4,
+.download .imAPP_1,
+.download .imAPP_2,
+.download .imAPP_3,
+.download .imAPP_4 {
+  position: absolute;
+  left: 40%;
+  width: 100px;
+}
+.menu ul,
+.menu a {
+  padding: 1em;
+}
+.menu ul {
+  background: rgba(255, 255, 255, 0);
+}
+.menu a,
+.navigation a {
+  text-decoration: none;
+}
+.menu a {
+  color: #ffffff;
+}
+.menu a:hover {
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
+  color: #030303;
+}
+.menu li {
+  display: inline;
+}
+.telephone {
+  height: 310px;
+}
+.telephone .iphone {
+  height: 400px;
+  margin-bottom: 50px;
+}
+.telephone,
+.team p,
+.team h3,
+.team2 p,
+.team2 h3,
+.app1,
+.app2,
+.download p,
+.download h3,
+.navigation {
+  justify-content: center;
+}
+.telephone ._1lim,
+._2lim,
+._1rim,
+._2rim {
+  height: 20px;
+  width: 30px;
+  margin-bottom: -20px;
+}
+.telephone ._1l,
+._2l,
+._1r,
+._2r {
+  width: 200px;
+  height: 100px;
+}
+
+.telephone ._2l,
+._2r {
+  margin-top: 10px;
+}
+.telephone ._1l,
+._1r {
+  margin-top: 100px;
+}
+.telephone p,
+.app1 .app1Text h3,
+.app1Text p,
+.app2 .app2Text h3,
+.app2Text p {
+  text-align: left;
+}
+.team {
+  background: #f03d90;
+  height: 360px;
+}
+
+.team2 {
+  background: #520f4e;
+  height: 360px;
+}
+
+.team .imDev_1,
+.team .imDev_2,
+.team .imDev_3,
+.team .imDev_4,
+.team2 .imDev_1,
+.team2 .imDev_2,
+.team2 .imDev_3,
+.team2 .imDev_4,
+.download .imAPP_1,
+.download .imAPP_2,
+.download .imAPP_3,
+.download .imAPP_4 {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+.team .colomnsDev,
+.team2 .colomnsDev,
+.download .colomnsAPP,
+.navigation .columnsNavigation {
+  column-count: 4;
+}
+
+.colomnsDev button 
+{
+  margin-top: 20px; 
+}
+
+
+.team .colomnsDev,
+.team2 .colomnsDev,
+.download .colomnsAPP {
+  margin-bottom: 20px;
+}
+.team .colomnsDevLabel p, .team2 .colomnsDevLabel2 p {
+  font-size: 20pt;
+}
+.download .colomnsWorkAPP p {
+  font-size: 20pt;
+}
+.app1 {
+  background: #ece17d;
+  height: 220px;
+}
+.app1 .app1Text {
+  margin-left: -800px;
+}
+.app1 .app1Text,
+.app2 .app2Text {
+  height: 70px;
+}
+.app2 {
+  background: #f0efe9;
+  column-count: 2;
+}
+.app2 .app2Text {
+  margin-bottom: 200px;
+}
+.app2 .app2Text button {
+  background-color: black;
+  margin-top: 20px;
+}
+.app2 .imApp {
+  height: 500px;
+  width: 800px;
+  margin-bottom: 250px;
+}
+.download,
+.app2 {
+  height: 400px;
+}
+.navigation {
+  height: 280px;
+}
+.navigation a {
+  font-size: 10pt;
+}
+.navigation li {
+  list-style-type: none;
+}
+.navigation .col4,
+.col2,
+.col3 {
+  padding-left: 15px;
+}
+footer {
+  height: 155px;
+}
+footer p {
+  font-size: 10px;
+}
+.telephone,
+.navigation,
+footer {
+  background: #232949;
+}
+
+@media screen and (max-width:767px){
+	header .block1 .logo{
+		height: 40px;
+		width: 120px;
+	}
+  header .block1 .menu{
+    margin-left: 30px;
+    margin-top: -8px;
+  }
+  header .block1 .menu a{
+    font-size: 8pt;
+  }
+  header .block2 p{
+    margin-top: -100px;
+  }
+  header .block2 p, header .block2 h1{
+    font-size: 12pt;
+  }
+  header .block2 form input, header .block2 form button, .app2 button{
+    height: 40px;
+    width: 120px;
+  }
+  .telephone .colomns {
+    column-count: 2;
+  }
+  .telephone .colomns .iphone{
+    display: none;
+  }
+  .telephone ._1l, ._2l {
+    margin-left: 0;
+  }
+  .telephone ._2l,
+  ._2r {
+    margin-top: 0;
+  }
+  .telephone ._1l,
+  ._1r {
+    margin-top: 0;
+  }
+  .team .colomnsDev, .team2 .colomnsDev, .download .colomnsAPP{
+    column-count: 2;
+  }
+  .team .colomnsDevLabel h3, .team2 .colomnsDevLabel2 h3{
+    font-size: 18pt;
+  }
+  .team .colomnsDevLabel p, .team2 .colomnsDevLabel2 p, .download .colomnsWorkAPP p{
+    display: none;
+  }
+  .app1 .app1Text {
+    margin-left: 0;
+  }
+  .app1 .app1Text p, .app2 .app2Text p {
+    width: 300px;
+  }
+  .app2 {
+    column-count: 1;
+  }
+  .app2 .imApp{
+    display: none;
+  }
+  .download .colomnsAPP p{
+    font-size: 10pt;
+  }
+  .download .colomnsWorkAPP h3{
+    font-size: 18pt;
+  }
+  .download button{
+    height: 40px;
+    width: 150px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+	header .block1 .logo{
+		height: 50px;
+		width: 180px;
+	}
+  header .block1 .menu{
+    margin-left: 30px;
+    margin-top: -3px;
+  }
+  header .block1 .menu a{
+    font-size: 11pt;
+  }
+  header .block2 p, header .block2 h1{
+    font-size: 18pt;
+  }
+  header .block2 p{
+    margin-top: -120px;
+  }
+  header .block2 form input, header .block2 form button, .app2 button{
+    height: 50px;
+    width: 160px;
+  }
+  .telephone .colomns {
+    column-count: 2;
+  }
+  .telephone .colomns .iphone{
+    display: none;
+  }
+  .telephone ._1l, ._2l {
+    margin-left: 0;
+  }
+  .telephone ._2l, ._2r {
+    margin-top: 0;
+  }
+  .telephone ._1l, ._1r {
+    margin-top: 0;
+  }
+  .team .colomnsDev, .team2 .colomnsDev, .download .colomnsAPP{
+    column-count: 2;
+  }
+  .team .colomnsDevLabel h3, .team2 .colomnsDevLabel2 h3{
+    font-size: 18pt;
+  }
+  .team .colomnsDevLabel p, .team2 .colomnsDevLabel2 p, .download .colomnsWorkAPP p{
+    display: none;
+  }
+  .app1 .app1Text {
+    margin-left: 0;
+  }
+  .app1 .app1Text p, .app2 .app2Text p {
+    width: 300px;
+  }
+  .app2 {
+    column-count: 1;
+  }
+  .app2 .imApp{
+    display: none;
+  }
+  .download .colomnsAPP p{
+    font-size: 10pt;
+  }
+  .download .colomnsWorkAPP h3{
+    font-size: 18pt;
+  }
+  .download button{
+    height: 40px;
+    width: 150px;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (min-width:1024px){
+	header .block1 .logo{
+		height: 60px;
+	}
+  header .block1 .menu{
+    margin-left: 60px;
+    margin-top: 0;
+  }
+  header .block1 .menu a{
+    font-size: 14pt;
+  }
+  header .block2 p{
+    margin-top: -160px;
+  }
+  header .block2 p, header .block2 h1{
+    font-size: 28pt;
+  }
+  header .block2 form input, header .block2 form button, .app2 button{
+    height: 50px;
+    width: 180px;
+    margin-top: 20px;
+  }
+  .telephone .colomns{
+    column-count: 2;
+  }
+  .telephone ._1l, ._2l {
+    margin-left: 200px;
+  }
+  .telephone ._2l, ._2r {
+    margin-top: 10px;
+  }
+  .telephone ._1l, ._1r {
+    margin-top: 10px;
+  }
+  .team .colomnsDev, .team2 .colomnsDev, .download .colomnsAPP{
+    column-count: 4;
+  }
+  .download button{
+    height: 50px;
+    width: 180px;
+    margin-bottom: 5px;
+  }
+  .team button{
+    height: 50px;
+    width: 180px;
+    margin-bottom: 5px;
+  }
+  .team2 button{
+    height: 50px;
+    width: 180px;
+    margin-bottom: 5px;
+  }
+}
